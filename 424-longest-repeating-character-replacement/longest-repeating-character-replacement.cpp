@@ -9,7 +9,7 @@ public:
 
         if((r-l+1)-mf > k){
             hash[s[l]-'A']--;
-            mf=0;
+         
             l++;
         }
         if((r-l+1)-mf<=k){
